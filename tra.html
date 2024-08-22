@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Traffic Dashboard</title>
+    <link rel="stylesheet" href="tra.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Real-Time Traffic Dashboard</h1>
+        <div class="search">
+            <input type="text" id="search-input" placeholder="Enter area (e.g., Main St)">
+            <button id="search-btn">Search</button>
+        </div>
+        <div id="traffic-info" class="traffic-info">
+            <p id="location"></p>
+            <p id="congestion"></p>
+            <p id="speed"></p>
+        </div>
+        <button id="refresh-btn">Refresh Data</button>
+    </div>
+    <script src="tra.js"></script>
+</body>
+</html>
